@@ -1,0 +1,16 @@
+{
+    "field": {
+        "id": "primary_key",
+        "satuan": "varchar",
+        "is_active": "boolean"
+    },
+    "label": {
+        "id": "Id",
+        "satuan": "Satuan",
+        "is_active": "Aktif"
+    },
+    "validation": {
+        "satuan": "required|unique"
+    },
+    "alias": []
+}

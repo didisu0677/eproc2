@@ -1,0 +1,1 @@
+<p style="text-align: justify;">Evaluasi Penawaran atas <strong>"<?php echo $nama_pengadaan; ?>"</strong> telah selesai. Tahapan berikutnya adalah Klarifikasi dan Negosiasi dengan Tim Panitia Pengadaan <strong>"<?php echo $nama_pengadaan; ?>"</strong>.</p>

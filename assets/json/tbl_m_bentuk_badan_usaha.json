@@ -1,0 +1,19 @@
+{
+    "field": {
+        "id": "primary_key",
+        "kode": "varchar",
+        "bentuk_badan_usaha": "varchar",
+        "is_active": "boolean"
+    },
+    "label": {
+        "id": "Id",
+        "kode": "Kode",
+        "bentuk_badan_usaha": "Bentuk Badan Usaha",
+        "is_active": "Aktif"
+    },
+    "validation": {
+        "kode": "required|unique",
+        "bentuk_badan_usaha": "required"
+    },
+    "alias": []
+}

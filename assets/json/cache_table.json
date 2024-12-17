@@ -1,0 +1,194 @@
+{
+    "pengadaan_approval_permintaan_data_tbl_pengajuan": {
+        "select": "tbl_pengajuan.id AS tbl_pengajuan_id, tbl_pengajuan.nomor_pengajuan AS tbl_pengajuan_nomor_pengajuan, tbl_pengajuan.tanggal_pengadaan AS tbl_pengajuan_tanggal_pengadaan, tbl_pengajuan.nama_pengadaan AS tbl_pengajuan_nama_pengadaan, tbl_pengajuan.nama_divisi AS tbl_pengajuan_nama_divisi, tbl_pengajuan.create_by AS tbl_pengajuan_create_by,approve_user",
+        "join": []
+    },
+    "pengadaan_approval_pengadaan_data_tbl_pengajuan": {
+        "select": "tbl_pengajuan.id AS tbl_pengajuan_id, tbl_pengajuan.nomor_pengajuan AS tbl_pengajuan_nomor_pengajuan, tbl_pengajuan.tanggal_pengadaan AS tbl_pengajuan_tanggal_pengadaan, tbl_pengajuan.nama_pengadaan AS tbl_pengajuan_nama_pengadaan, tbl_pengajuan.nama_divisi AS tbl_pengajuan_nama_divisi, tbl_pengajuan.create_by AS tbl_pengajuan_create_by, tbl_pengajuan.nama_panitia AS tbl_pengajuan_nama_panitia,approve",
+        "join": []
+    },
+    "pengadaan_monitor_pengadaan_data_tbl_pengajuan": {
+        "select": "tbl_pengajuan.id AS tbl_pengajuan_id, tbl_pengajuan.nomor_pengajuan AS tbl_pengajuan_nomor_pengajuan, tbl_pengajuan.nomor_pengadaan AS tbl_pengajuan_nomor_pengadaan, tbl_pengajuan.tanggal_pengadaan AS tbl_pengajuan_tanggal_pengadaan, tbl_pengajuan.nama_pengadaan AS tbl_pengajuan_nama_pengadaan, tbl_pengajuan.nama_divisi AS tbl_pengajuan_nama_divisi, tbl_pengajuan.create_by AS tbl_pengajuan_create_by, tbl_pengajuan.status_desc AS tbl_pengajuan_status_desc",
+        "join": []
+    },
+    "pengadaan_pengajuan_data_tbl_pengajuan": {
+        "select": "tbl_pengajuan.id AS tbl_pengajuan_id, tbl_pengajuan.nama_divisi AS tbl_pengajuan_nama_divisi, tbl_pengajuan.nomor_pengajuan AS tbl_pengajuan_nomor_pengajuan, tbl_pengajuan.tanggal_pengadaan AS tbl_pengajuan_tanggal_pengadaan, tbl_pengajuan.pemberi_tugas AS tbl_pengajuan_pemberi_tugas, tbl_pengajuan.nama_pengadaan AS tbl_pengajuan_nama_pengadaan, tbl_pengajuan.mata_anggaran AS tbl_pengajuan_mata_anggaran, tbl_pengajuan.besar_anggaran AS tbl_pengajuan_besar_anggaran, tbl_pengajuan.usulan_hps AS tbl_pengajuan_usulan_hps, tbl_pengajuan.approve_user AS tbl_pengajuan_approve_user,approve_user",
+        "join": []
+    },
+    "manajemen_rekanan_calon_rekanan_data_tbl_vendor": {
+        "select": "tbl_vendor.id AS tbl_vendor_id, tbl_vendor.jenis_rekanan AS tbl_vendor_jenis_rekanan, tbl_vendor.nama AS tbl_vendor_nama, tbl_vendor.kategori_rekanan AS tbl_vendor_kategori_rekanan, tbl_vendor.kualifikasi AS tbl_vendor_kualifikasi, tbl_vendor.asosiasi AS tbl_vendor_asosiasi, tbl_vendor.unit_daftar AS tbl_vendor_unit_daftar,invalid_password",
+        "join": []
+    },
+    "manajemen_rekanan_daftar_rekanan_data_tbl_vendor": {
+        "select": "tbl_vendor.id AS tbl_vendor_id, tbl_vendor.kode_rekanan AS tbl_vendor_kode_rekanan, tbl_vendor.nama AS tbl_vendor_nama, tbl_vendor.jenis_rekanan AS tbl_vendor_jenis_rekanan, tbl_vendor.kategori_rekanan AS tbl_vendor_kategori_rekanan, tbl_vendor.kualifikasi AS tbl_vendor_kualifikasi, tbl_vendor.asosiasi AS tbl_vendor_asosiasi,invalid_password",
+        "join": []
+    },
+    "pengadaan_v_klarifikasi_negosiasi_v_data_tbl_klarifikasi_vendor": {
+        "select": "tbl_klarifikasi_vendor.id AS tbl_klarifikasi_vendor_id, tbl_klarifikasi_vendor.nomor_pengadaan AS tbl_klarifikasi_vendor_nomor_pengadaan, tbl_klarifikasi_vendor.nama_pengadaan AS tbl_klarifikasi_vendor_nama_pengadaan, tbl_klarifikasi_vendor.keterangan_pengadaan AS tbl_klarifikasi_vendor_keterangan_pengadaan",
+        "join": []
+    },
+    "pengadaan_v_spk_v_data_tbl_pemenang_pengadaan": {
+        "select": "tbl_pemenang_pengadaan.id AS tbl_pemenang_pengadaan_id, tbl_pemenang_pengadaan.nomor_pengadaan AS tbl_pemenang_pengadaan_nomor_pengadaan, tbl_pemenang_pengadaan.tanggal_pengadaan AS tbl_pemenang_pengadaan_tanggal_pengadaan, tbl_pemenang_pengadaan.nama_pengadaan AS tbl_pemenang_pengadaan_nama_pengadaan, tbl_pemenang_pengadaan.penawaran_terakhir AS tbl_pemenang_pengadaan_penawaran_terakhir",
+        "join": []
+    },
+    "pengadaan_v_kontrak_v_data_tbl_kontrak": {
+        "select": "tbl_kontrak.id AS tbl_kontrak_id, tbl_kontrak.nomor_kontrak AS tbl_kontrak_nomor_kontrak, tbl_kontrak.nama_pengadaan AS tbl_kontrak_nama_pengadaan, tbl_kontrak.nilai_pengadaan AS tbl_kontrak_nilai_pengadaan, tbl_kontrak.tanggal_mulai_kontrak AS tbl_kontrak_tanggal_mulai_kontrak, tbl_kontrak.tanggal_selesai_kontrak AS tbl_kontrak_tanggal_selesai_kontrak",
+        "join": []
+    },
+    "pengadaan_v_evaluasi_v_data_tbl_aanwijzing_vendor": {
+        "select": "tbl_aanwijzing_vendor.id AS tbl_aanwijzing_vendor_id, tbl_aanwijzing_vendor.nomor_pengadaan AS tbl_aanwijzing_vendor_nomor_pengadaan, tbl_aanwijzing_vendor.nama_pengadaan AS tbl_aanwijzing_vendor_nama_pengadaan, tbl_aanwijzing_vendor.tanggal_pengadaan AS tbl_aanwijzing_vendor_tanggal_pengadaan, tbl_aanwijzing_vendor.keterangan_pengadaan AS tbl_aanwijzing_vendor_keterangan_pengadaan",
+        "join": []
+    },
+    "pengadaan_v_penawaran_v_data_tbl_aanwijzing_vendor": {
+        "select": "tbl_aanwijzing_vendor.id AS tbl_aanwijzing_vendor_id, tbl_aanwijzing_vendor.nomor_pengadaan AS tbl_aanwijzing_vendor_nomor_pengadaan, tbl_aanwijzing_vendor.nama_pengadaan AS tbl_aanwijzing_vendor_nama_pengadaan, tbl_aanwijzing_vendor.tanggal_pengadaan AS tbl_aanwijzing_vendor_tanggal_pengadaan, tbl_aanwijzing_vendor.keterangan_pengadaan AS tbl_aanwijzing_vendor_keterangan_pengadaan",
+        "join": []
+    },
+    "pengadaan_v_aanwijzing_v_data_tbl_aanwijzing_vendor": {
+        "select": "tbl_aanwijzing_vendor.id AS tbl_aanwijzing_vendor_id, tbl_aanwijzing_vendor.nomor_aanwijzing AS tbl_aanwijzing_vendor_nomor_aanwijzing, tbl_aanwijzing_vendor.nomor_pengadaan AS tbl_aanwijzing_vendor_nomor_pengadaan, tbl_aanwijzing_vendor.nama_pengadaan AS tbl_aanwijzing_vendor_nama_pengadaan, tbl_aanwijzing_vendor.tanggal_pengadaan AS tbl_aanwijzing_vendor_tanggal_pengadaan, tbl_aanwijzing_vendor.keterangan_pengadaan AS tbl_aanwijzing_vendor_keterangan_pengadaan",
+        "join": []
+    },
+    "pengadaan_v_undangan_pengadaan_data_tbl_pengadaan_bidder": {
+        "select": "tbl_pengadaan_bidder.id AS tbl_pengadaan_bidder_id, tbl_pengadaan_bidder.nomor_pengadaan AS tbl_pengadaan_bidder_nomor_pengadaan, tbl_pengadaan_bidder.nama_pengadaan AS tbl_pengadaan_bidder_nama_pengadaan, tbl_pengadaan_bidder.tanggal_pengadaan AS tbl_pengadaan_bidder_tanggal_pengadaan, tbl_pengadaan_bidder.keterangan_pengadaan AS tbl_pengadaan_bidder_keterangan_pengadaan",
+        "join": []
+    },
+    "pengadaan_v_daftar_pengadaan_v_data_tbl_pengadaan_detail": {
+        "select": "tbl_pengadaan_detail.id AS tbl_pengadaan_detail_id, tbl_pengadaan_detail.nomor_pengadaan AS tbl_pengadaan_detail_nomor_pengadaan, tbl_pengadaan_detail.nama_pengadaan AS tbl_pengadaan_detail_nama_pengadaan, tbl_pengadaan_detail.tanggal_pengadaan AS tbl_pengadaan_detail_tanggal_pengadaan, tbl_pengadaan_detail.keterangan_pengadaan AS tbl_pengadaan_detail_keterangan_pengadaan",
+        "join": []
+    },
+    "pengadaan_disposisi_data_tbl_disposisi": {
+        "select": "tbl_disposisi.id AS tbl_disposisi_id, tbl_disposisi.nomor_pengajuan AS tbl_disposisi_nomor_pengajuan, tbl_disposisi.nomor_disposisi AS tbl_disposisi_nomor_disposisi, tbl_disposisi.tanggal_disposisi AS tbl_disposisi_tanggal_disposisi, tbl_disposisi.nama_user AS tbl_disposisi_nama_user,status_delegasi",
+        "join": []
+    },
+    "pengadaan_delegasi_data_tbl_delegasi_pengadaan": {
+        "select": "tbl_delegasi_pengadaan.id AS tbl_delegasi_pengadaan_id, tbl_delegasi_pengadaan.nomor_pengajuan AS tbl_delegasi_pengadaan_nomor_pengajuan, tbl_delegasi_pengadaan.nama_pengadaan AS tbl_delegasi_pengadaan_nama_pengadaan, tbl_delegasi_pengadaan.nomor_delegasi AS tbl_delegasi_pengadaan_nomor_delegasi, tbl_delegasi_pengadaan.tanggal_delegasi AS tbl_delegasi_pengadaan_tanggal_delegasi, tbl_delegasi_pengadaan.nama_panitia AS tbl_delegasi_pengadaan_nama_panitia,status_proses",
+        "join": []
+    },
+    "pengadaan_hps_data_tbl_m_hps": {
+        "select": "tbl_m_hps.id AS tbl_m_hps_id, tbl_m_hps.nomor_pengajuan AS tbl_m_hps_nomor_pengajuan, tbl_m_hps.deskripsi AS tbl_m_hps_deskripsi, tbl_m_hps.nomor_hps AS tbl_m_hps_nomor_hps, tbl_m_hps.tanggal AS tbl_m_hps_tanggal, tbl_m_hps.klasifikasi AS tbl_m_hps_klasifikasi, tbl_m_hps.total_hps_pembulatan AS tbl_m_hps_total_hps_pembulatan, tbl_m_hps.status AS tbl_m_hps_status,status_proses",
+        "join": []
+    },
+    "pengadaan_inisiasi_pengadaan_data_tbl_inisiasi_pengadaan": {
+        "select": "tbl_inisiasi_pengadaan.id AS tbl_inisiasi_pengadaan_id, tbl_inisiasi_pengadaan.nomor_pengajuan AS tbl_inisiasi_pengadaan_nomor_pengajuan, tbl_inisiasi_pengadaan.nama_pengadaan AS tbl_inisiasi_pengadaan_nama_pengadaan, tbl_inisiasi_pengadaan.tanggal_pengadaan AS tbl_inisiasi_pengadaan_tanggal_pengadaan, tbl_inisiasi_pengadaan.nomor_inisiasi AS tbl_inisiasi_pengadaan_nomor_inisiasi, tbl_inisiasi_pengadaan.tanggal_inisiasi AS tbl_inisiasi_pengadaan_tanggal_inisiasi, tbl_inisiasi_pengadaan.status AS tbl_inisiasi_pengadaan_status,status_proses",
+        "join": []
+    },
+    "pengadaan_rks_data_tbl_rks": {
+        "select": "tbl_rks.id AS tbl_rks_id, tbl_rks.nomor_rks AS tbl_rks_nomor_rks, tbl_rks.tanggal_rks AS tbl_rks_tanggal_rks, tbl_rks.nama_divisi AS tbl_rks_nama_divisi, tbl_rks.nama_pengadaan AS tbl_rks_nama_pengadaan, tbl_rks.pemberi_tugas AS tbl_rks_pemberi_tugas, tbl_rks.mata_anggaran AS tbl_rks_mata_anggaran, tbl_rks.hps_panitia AS tbl_rks_hps_panitia, tbl_rks.status AS tbl_rks_status,status_proses",
+        "join": []
+    },
+    "pengadaan_pendaftaran_pengadaan_data_tbl_pengadaan": {
+        "select": "tbl_pengadaan.id AS tbl_pengadaan_id, tbl_pengadaan.nomor_pengadaan AS tbl_pengadaan_nomor_pengadaan, tbl_pengadaan.nama_pengadaan AS tbl_pengadaan_nama_pengadaan, tbl_pengadaan.tanggal_pengadaan AS tbl_pengadaan_tanggal_pengadaan, tbl_pengadaan.keterangan_pengadaan AS tbl_pengadaan_keterangan_pengadaan,status_pengadaan",
+        "join": []
+    },
+    "pengadaan_aanwijzing_data_tbl_aanwijzing": {
+        "select": "tbl_aanwijzing.id AS tbl_aanwijzing_id, tbl_aanwijzing.nomor_aanwijzing AS tbl_aanwijzing_nomor_aanwijzing, tbl_aanwijzing.nomor_pengadaan AS tbl_aanwijzing_nomor_pengadaan, tbl_aanwijzing.nama_pengadaan AS tbl_aanwijzing_nama_pengadaan, tbl_aanwijzing.tanggal_pengadaan AS tbl_aanwijzing_tanggal_pengadaan, tbl_aanwijzing.keterangan_pengadaan AS tbl_aanwijzing_keterangan_pengadaan",
+        "join": []
+    },
+    "pengadaan_penawaran_data_tbl_aanwijzing": {
+        "select": "tbl_aanwijzing.id AS tbl_aanwijzing_id, tbl_aanwijzing.nomor_pengadaan AS tbl_aanwijzing_nomor_pengadaan, tbl_aanwijzing.nama_pengadaan AS tbl_aanwijzing_nama_pengadaan, tbl_aanwijzing.tanggal_pengadaan AS tbl_aanwijzing_tanggal_pengadaan, tbl_aanwijzing.keterangan_pengadaan AS tbl_aanwijzing_keterangan_pengadaan",
+        "join": []
+    },
+    "pengadaan_evaluasi_data_tbl_aanwijzing": {
+        "select": "tbl_aanwijzing.id AS tbl_aanwijzing_id, tbl_aanwijzing.nomor_pengadaan AS tbl_aanwijzing_nomor_pengadaan, tbl_aanwijzing.nama_pengadaan AS tbl_aanwijzing_nama_pengadaan, tbl_aanwijzing.tanggal_pengadaan AS tbl_aanwijzing_tanggal_pengadaan, tbl_aanwijzing.keterangan_pengadaan AS tbl_aanwijzing_keterangan_pengadaan",
+        "join": []
+    },
+    "pengadaan_peninjauan_lapangan_data_tbl_aanwijzing": {
+        "select": "tbl_aanwijzing.id AS tbl_aanwijzing_id, tbl_aanwijzing.nomor_pengadaan AS tbl_aanwijzing_nomor_pengadaan, tbl_aanwijzing.nama_pengadaan AS tbl_aanwijzing_nama_pengadaan, tbl_aanwijzing.tanggal_pengadaan AS tbl_aanwijzing_tanggal_pengadaan, tbl_aanwijzing.keterangan_pengadaan AS tbl_aanwijzing_keterangan_pengadaan,status_aanwijzing",
+        "join": []
+    },
+    "pengadaan_laporan_peninjauan_data_tbl_aanwijzing_peninjauan": {
+        "select": "tbl_aanwijzing_peninjauan.id AS tbl_aanwijzing_peninjauan_id, tbl_aanwijzing_peninjauan.nomor_pengadaan AS tbl_aanwijzing_peninjauan_nomor_pengadaan, tbl_aanwijzing_peninjauan.nama_pengadaan AS tbl_aanwijzing_peninjauan_nama_pengadaan, tbl_aanwijzing_peninjauan.nama_vendor AS tbl_aanwijzing_peninjauan_nama_vendor, tbl_aanwijzing_peninjauan.nomor_surat_tugas AS tbl_aanwijzing_peninjauan_nomor_surat_tugas, tbl_aanwijzing_peninjauan.tanggal_peninjauan AS tbl_aanwijzing_peninjauan_tanggal_peninjauan",
+        "join": []
+    },
+    "pengadaan_klarifikasi_negosiasi_data_tbl_klarifikasi": {
+        "select": "tbl_klarifikasi.id AS tbl_klarifikasi_id, tbl_klarifikasi.nomor_pengadaan AS tbl_klarifikasi_nomor_pengadaan, tbl_klarifikasi.nama_pengadaan AS tbl_klarifikasi_nama_pengadaan, tbl_klarifikasi.metode_negosiasi AS tbl_klarifikasi_metode_negosiasi, tbl_klarifikasi.keterangan AS tbl_klarifikasi_keterangan",
+        "join": []
+    },
+    "pengadaan_penetapan_pemenang_data_tbl_pemenang_pengadaan": {
+        "select": "tbl_pemenang_pengadaan.id AS tbl_pemenang_pengadaan_id, tbl_pemenang_pengadaan.nomor_pengadaan AS tbl_pemenang_pengadaan_nomor_pengadaan, tbl_pemenang_pengadaan.tanggal_pengadaan AS tbl_pemenang_pengadaan_tanggal_pengadaan, tbl_pemenang_pengadaan.nama_pengadaan AS tbl_pemenang_pengadaan_nama_pengadaan, tbl_pemenang_pengadaan.nama_vendor AS tbl_pemenang_pengadaan_nama_vendor, tbl_pemenang_pengadaan.alamat_vendor AS tbl_pemenang_pengadaan_alamat_vendor, tbl_pemenang_pengadaan.penawaran_terakhir AS tbl_pemenang_pengadaan_penawaran_terakhir",
+        "join": []
+    },
+    "pengadaan_spk_data_tbl_pemenang_pengadaan": {
+        "select": "tbl_pemenang_pengadaan.id AS tbl_pemenang_pengadaan_id, tbl_pemenang_pengadaan.nomor_pengadaan AS tbl_pemenang_pengadaan_nomor_pengadaan, tbl_pemenang_pengadaan.tanggal_pengadaan AS tbl_pemenang_pengadaan_tanggal_pengadaan, tbl_pemenang_pengadaan.nama_pengadaan AS tbl_pemenang_pengadaan_nama_pengadaan, tbl_pemenang_pengadaan.nama_vendor AS tbl_pemenang_pengadaan_nama_vendor, tbl_pemenang_pengadaan.alamat_vendor AS tbl_pemenang_pengadaan_alamat_vendor, tbl_pemenang_pengadaan.penawaran_terakhir AS tbl_pemenang_pengadaan_penawaran_terakhir",
+        "join": []
+    },
+    "inisiasi_metode_pengadaan_data_tbl_metode_pengadaan": {
+        "select": "tbl_metode_pengadaan.id AS tbl_metode_pengadaan_id, tbl_metode_pengadaan.kode AS tbl_metode_pengadaan_kode, tbl_metode_pengadaan.metode_pengadaan AS tbl_metode_pengadaan_metode_pengadaan, tbl_metode_pengadaan.tipe AS tbl_metode_pengadaan_tipe, tbl_metode_pengadaan.limit_bawah_pengadaan AS tbl_metode_pengadaan_limit_bawah_pengadaan, tbl_metode_pengadaan.limit_atas_pengadaan AS tbl_metode_pengadaan_limit_atas_pengadaan",
+        "join": []
+    },
+    "inisiasi_panitia_pengadaan_data_tbl_m_panitia_pengadaan": {
+        "select": "tbl_m_panitia_pengadaan.id AS tbl_m_panitia_pengadaan_id, tbl_m_panitia_pengadaan.id_panitia AS tbl_m_panitia_pengadaan_id_panitia, tbl_m_panitia_pengadaan.tanggal AS tbl_m_panitia_pengadaan_tanggal, tbl_m_panitia_pengadaan.deskripsi AS tbl_m_panitia_pengadaan_deskripsi",
+        "join": []
+    },
+    "settings_user_lists_data_tbl_user": {
+        "select": "tbl_user.id AS tbl_user_id, tbl_user.kode AS tbl_user_kode, tbl_user.nama AS tbl_user_nama, tbl_user.username AS tbl_user_username, tbl_user.email AS tbl_user_email, tbl_user.jabatan AS tbl_user_jabatan, tbl_user_group.nama AS tbl_user_group_nama, tbl_user.is_active AS tbl_user_is_active,invalid_password",
+        "join": [
+            "tbl_user_group on tbl_user.id_group = tbl_user_group.id type left"
+        ]
+    },
+    "inisiasi_grup_persetujuan_data_tbl_master_group_persetujuan": {
+        "select": "tbl_master_group_persetujuan.id AS tbl_master_group_persetujuan_id, tbl_master_group_persetujuan.kode_divisi AS tbl_master_group_persetujuan_kode_divisi, tbl_master_group_persetujuan.nama_divisi AS tbl_master_group_persetujuan_nama_divisi",
+        "join": []
+    },
+    "manajemen_rekanan_sp_rekanan_data_tbl_sp_vendor": {
+        "select": "tbl_sp_vendor.id AS tbl_sp_vendor_id, tbl_sp_vendor.kode_rekanan AS tbl_sp_vendor_kode_rekanan, tbl_sp_vendor.nama_rekanan AS tbl_sp_vendor_nama_rekanan, tbl_sp_vendor.alamat AS tbl_sp_vendor_alamat, tbl_sp_vendor.sp_terakhir AS tbl_sp_vendor_sp_terakhir",
+        "join": []
+    },
+    "manajemen_rekanan_pemeriksaan_dokumen_data_tbl_upl_dokumenvendor": {
+        "select": "tbl_upl_dokumenvendor.id AS tbl_upl_dokumenvendor_id, tbl_upl_dokumenvendor.kode_rekanan AS tbl_upl_dokumenvendor_kode_rekanan, tbl_vendor.nama AS tbl_vendor_nama, tbl_upl_dokumenvendor.nama_dokumen AS tbl_upl_dokumenvendor_nama_dokumen, tbl_upl_dokumenvendor.tanggal_kadaluarsa AS tbl_upl_dokumenvendor_tanggal_kadaluarsa",
+        "join": [
+            "tbl_vendor on tbl_upl_dokumenvendor.id_vendor = tbl_vendor.id type left"
+        ]
+    },
+    "manajemen_rekanan_persetujuan_drm_data_tbl_m_rekomendasi_vendor": {
+        "select": "tbl_m_rekomendasi_vendor.id AS tbl_m_rekomendasi_vendor_id, tbl_m_rekomendasi_vendor.nama_rekanan AS tbl_m_rekomendasi_vendor_nama_rekanan, tbl_m_rekomendasi_vendor.alamat AS tbl_m_rekomendasi_vendor_alamat, tbl_m_rekomendasi_vendor.jangka_waktu AS tbl_m_rekomendasi_vendor_jangka_waktu, tbl_m_rekomendasi_vendor.nomor_rekomendasi AS tbl_m_rekomendasi_vendor_nomor_rekomendasi, tbl_m_rekomendasi_vendor.tanggal_rekomendasi AS tbl_m_rekomendasi_vendor_tanggal_rekomendasi, tbl_m_rekomendasi_vendor.usulan_rekomendasi AS tbl_m_rekomendasi_vendor_usulan_rekomendasi,approval",
+        "join": []
+    },
+    "manajemen_rekanan_rekomendasi_usulan_data_tbl_vendor": {
+        "select": "tbl_vendor.id AS tbl_vendor_id, tbl_vendor.kode_rekanan AS tbl_vendor_kode_rekanan, tbl_vendor.nama AS tbl_vendor_nama, tbl_vendor.jenis_rekanan AS tbl_vendor_jenis_rekanan, tbl_vendor.kategori_rekanan AS tbl_vendor_kategori_rekanan, tbl_vendor.kualifikasi AS tbl_vendor_kualifikasi, tbl_vendor.nomor_rekomendasi AS tbl_vendor_nomor_rekomendasi, tbl_vendor.rekomendasi AS tbl_vendor_rekomendasi,status_drm",
+        "join": []
+    },
+    "manajemen_sp_data_tbl_sp_vendor": {
+        "select": "tbl_sp_vendor.id AS tbl_sp_vendor_id, tbl_sp_vendor.kode_rekanan AS tbl_sp_vendor_kode_rekanan, tbl_sp_vendor.nama_rekanan AS tbl_sp_vendor_nama_rekanan, tbl_sp_vendor.alamat AS tbl_sp_vendor_alamat, tbl_sp_vendor.sp_terakhir AS tbl_sp_vendor_sp_terakhir",
+        "join": []
+    },
+    "manajemen_rekanan_kunjungan_langsung_data_tbl_vendor": {
+        "select": "tbl_vendor.id AS tbl_vendor_id, tbl_vendor.kode_rekanan AS tbl_vendor_kode_rekanan, tbl_vendor.nama AS tbl_vendor_nama, tbl_vendor.jenis_rekanan AS tbl_vendor_jenis_rekanan, tbl_vendor.kategori_rekanan AS tbl_vendor_kategori_rekanan, tbl_vendor.kualifikasi AS tbl_vendor_kualifikasi, tbl_vendor.nomor_kunjungan AS tbl_vendor_nomor_kunjungan, tbl_vendor.laporan_kunjungan AS tbl_vendor_laporan_kunjungan,laporan_kunjungan",
+        "join": []
+    },
+    "manajemen_rekanan_checklist_rekanan_data_tbl_vendor": {
+        "select": "tbl_vendor.id AS tbl_vendor_id, tbl_vendor.kode_rekanan AS tbl_vendor_kode_rekanan, tbl_vendor.nama AS tbl_vendor_nama, tbl_vendor.jenis_rekanan AS tbl_vendor_jenis_rekanan, tbl_vendor.kategori_rekanan AS tbl_vendor_kategori_rekanan, tbl_vendor.kualifikasi AS tbl_vendor_kualifikasi, tbl_vendor.verifikasi_dokumen AS tbl_vendor_verifikasi_dokumen,verifikasi_dokumen,kunjungan",
+        "join": []
+    },
+    "manajemen_daftar_data_tbl_vendor": {
+        "select": "tbl_vendor.id AS tbl_vendor_id, tbl_vendor.kode_rekanan AS tbl_vendor_kode_rekanan, tbl_vendor.nama AS tbl_vendor_nama, tbl_vendor.jenis_rekanan AS tbl_vendor_jenis_rekanan, tbl_vendor.kategori_rekanan AS tbl_vendor_kategori_rekanan, tbl_vendor.kualifikasi AS tbl_vendor_kualifikasi, tbl_vendor.asosiasi AS tbl_vendor_asosiasi,invalid_password",
+        "join": []
+    },
+    "manajemen_rekanan_dokumen_rekanan_data_tbl_m_dokumen_rekanan": {
+        "select": "tbl_m_dokumen_rekanan.id AS tbl_m_dokumen_rekanan_id, tbl_m_dokumen_rekanan.kode_dokumen AS tbl_m_dokumen_rekanan_kode_dokumen, tbl_m_dokumen_rekanan.nama_dokumen AS tbl_m_dokumen_rekanan_nama_dokumen, tbl_m_dokumen_rekanan.status_dokumen AS tbl_m_dokumen_rekanan_status_dokumen, tbl_m_dokumen_rekanan.keterangan AS tbl_m_dokumen_rekanan_keterangan, tbl_m_dokumen_rekanan.is_active AS tbl_m_dokumen_rekanan_is_active",
+        "join": []
+    },
+    "manajemen_rekanan_laporan_kunjungan_data_tbl_m_kunjungan_vendor": {
+        "select": "tbl_m_kunjungan_vendor.id AS tbl_m_kunjungan_vendor_id, tbl_m_kunjungan_vendor.nomor_kunjungan AS tbl_m_kunjungan_vendor_nomor_kunjungan, tbl_m_kunjungan_vendor.nama_vendor AS tbl_m_kunjungan_vendor_nama_vendor, tbl_m_kunjungan_vendor.tanggal_kunjungan AS tbl_m_kunjungan_vendor_tanggal_kunjungan",
+        "join": []
+    },
+    "manajemen_rekanan_checklist_rekanan_data_0_tbl_vendor": {
+        "select": "tbl_vendor.id AS tbl_vendor_id, tbl_vendor.kode_rekanan AS tbl_vendor_kode_rekanan, tbl_vendor.nama AS tbl_vendor_nama, tbl_vendor.jenis_rekanan AS tbl_vendor_jenis_rekanan, tbl_vendor.kategori_rekanan AS tbl_vendor_kategori_rekanan, tbl_vendor.kualifikasi AS tbl_vendor_kualifikasi, tbl_vendor.verifikasi_dokumen AS tbl_vendor_verifikasi_dokumen,verifikasi_dokumen,kunjungan",
+        "join": []
+    },
+    "inisiasi_jenis_pengadaan_data_tbl_jenis_pengadaan": {
+        "select": "tbl_jenis_pengadaan.id AS tbl_jenis_pengadaan_id, tbl_jenis_pengadaan.kode AS tbl_jenis_pengadaan_kode, tbl_jenis_pengadaan.jenis_pengadaan AS tbl_jenis_pengadaan_jenis_pengadaan",
+        "join": []
+    },
+    "settings_user_roles_data_tbl_user_group": {
+        "select": "tbl_user_group.id AS tbl_user_group_id, tbl_user_group.nama AS tbl_user_group_nama, tbl_user_group.keterangan AS tbl_user_group_keterangan, tbl_user_group.is_active AS tbl_user_group_is_active",
+        "join": []
+    },
+    "pengadaan_v_penetapan_pemenang_v_data_tbl_pemenang_pengadaan": {
+        "select": "tbl_pemenang_pengadaan.id AS tbl_pemenang_pengadaan_id, tbl_pemenang_pengadaan.nomor_pengadaan AS tbl_pemenang_pengadaan_nomor_pengadaan, tbl_pemenang_pengadaan.tanggal_pengadaan AS tbl_pemenang_pengadaan_tanggal_pengadaan, tbl_pemenang_pengadaan.nama_pengadaan AS tbl_pemenang_pengadaan_nama_pengadaan, tbl_pemenang_pengadaan.nama_vendor AS tbl_pemenang_pengadaan_nama_vendor, tbl_pemenang_pengadaan.alamat_vendor AS tbl_pemenang_pengadaan_alamat_vendor, tbl_pemenang_pengadaan.penawaran_terakhir AS tbl_pemenang_pengadaan_penawaran_terakhir",
+        "join": []
+    },
+    "manajemen_rekanan_kunjungan_langsung_data_0_tbl_vendor": {
+        "select": "tbl_vendor.id AS tbl_vendor_id, tbl_vendor.kode_rekanan AS tbl_vendor_kode_rekanan, tbl_vendor.nama AS tbl_vendor_nama, tbl_vendor.jenis_rekanan AS tbl_vendor_jenis_rekanan, tbl_vendor.kategori_rekanan AS tbl_vendor_kategori_rekanan, tbl_vendor.kualifikasi AS tbl_vendor_kualifikasi, tbl_vendor.nomor_kunjungan AS tbl_vendor_nomor_kunjungan, tbl_vendor.laporan_kunjungan AS tbl_vendor_laporan_kunjungan,laporan_kunjungan",
+        "join": []
+    }
+}

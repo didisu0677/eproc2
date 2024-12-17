@@ -1,0 +1,11 @@
+{
+    "label":{
+        "kode":"Kode",
+        "nama":"Nama",
+        "username":"Nama Pengguna",
+        "email":"Email",
+        "telepon":"Telepon",
+        "last_login":"Last Login",
+        "last_activity":"Last Activity"
+    }
+}

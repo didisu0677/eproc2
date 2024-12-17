@@ -1,0 +1,22 @@
+{
+    "field": {
+        "id": "primary_key",
+        "id_jenis_pengadaan": "select",
+        "bobot_harga": "number",
+        "bobot_teknis": "number",
+        "is_active": "boolean"
+    },
+    "label": {
+        "id": "Id",
+        "id_jenis_pengadaan": "Jenis Pengadaan",
+        "bobot_harga": "Bobot Harga",
+        "bobot_teknis": "Bobot Teknis",
+        "is_active": "Aktif"
+    },
+    "validation": {
+        "id_jenis_pengadaan": "required"
+    },
+    "alias": {
+        "id_jenis_pengadaan": "tbl_jenis_pengadaan.jenis_pengadaan"
+    }
+}

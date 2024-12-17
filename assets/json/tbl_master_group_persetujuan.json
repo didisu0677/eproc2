@@ -1,0 +1,16 @@
+{
+    "field": {
+        "id": "primary_key",
+        "kode_divisi": "varchar",
+        "nama_divisi": "varchar",
+        "is_active": "boolean"
+    },
+    "label": {
+        "id": "Id",
+        "kode_divisi": "Kode Divisi",
+        "nama_divisi": "Nama Divisi",
+        "is_active": "Aktif"
+    },
+    "validation": [],
+    "alias": []
+}

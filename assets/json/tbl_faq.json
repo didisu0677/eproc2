@@ -1,0 +1,19 @@
+{
+    "field": {
+        "id": "primary_key",
+        "pertanyaan": "varchar",
+        "jawaban": "text",
+        "is_active": "boolean"
+    },
+    "label": {
+        "id": "Id",
+        "pertanyaan": "Pertanyaan",
+        "jawaban": "Jawaban",
+        "is_active": "Aktif"
+    },
+    "validation": {
+        "pertanyaan": "required",
+        "jawaban": "required"
+    },
+    "alias": []
+}

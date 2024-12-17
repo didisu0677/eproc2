@@ -1,0 +1,87 @@
+.note-icon-caret::before {
+   display: none;
+}
+.note-modal-content {
+    border-radius: .25rem;
+}
+.note-modal-header {
+    padding: .75rem 1rem;
+    border-bottom: 1px solid #ededef;
+    border-top: 0 none;
+    border-left: 0 none;
+    border-right: 0 none;
+    font-size: .875rem;
+}
+.note-modal-header .close {
+    margin-top: 0;
+}
+.note-modal-header h4 {
+    font-size: 1rem;
+}
+.note-modal-body, .note-modal-footer {
+    padding: .75rem 1rem;
+}
+.note-form-label {
+    font-size: .875rem;
+    font-weight: 400;
+}
+.note-form-group {
+    padding-bottom: 0;
+}
+.note-input {
+    font-size: .875rem;
+    border-radius: .125rem;
+}
+.note-modal-body .checkbox input[type="checkbox"] {
+    margin-right: .5rem;
+}
+.note-modal-footer {
+    height: 60px;
+}
+.note-editor.note-frame {
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.note-popover .note-popover-content, .note-toolbar {
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+.note-editor .dropdown-toggle::after {
+    margin: 0;
+}
+.note-btn-group::after {
+    content: " ";
+    display: inline-block;
+    width: 1px;
+    background: #d7e0e2;
+    margin: 6px 5px;
+    height: 16px;
+    vertical-align: top;
+}
+.note-btn-group .note-btn-group::after, .note-btn-group:last-child::after {
+    display: none;
+}
+.note-toolbar .note-btn {
+    display: inline-block;
+    padding: .25rem .5rem;
+    margin-bottom: 0;
+    font-size: .75rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #333;
+    opacity: .6;
+}
+.note-toolbar .note-btn:hover {
+    opacity: 1;
+    background: transparent;
+}
+.note-toolbar .note-btn.active {
+    opacity: 1;
+}
+.note-toolbar .note-btn.active i {
+    color: #00b6ff;
+}
+.note-editor.note-frame .note-statusbar.locked {
+    background: #fff;
+    border-top: 0 none;
+}

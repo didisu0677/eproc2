@@ -1,0 +1,22 @@
+{
+    "field": {
+        "id": "primary_key",
+        "nomor_disposisi": "varchar",
+        "tanggal_disposisi": "date",
+        "id_permintaan": "varchar",
+        "nomor_permintaan": "varchar",
+        "id_delegator": "int",
+        "is_active": "boolean"
+    },
+    "label": {
+        "id": "Id",
+        "nomor_disposisi": "Nomor Disposisi",
+        "tanggal_disposisi": "Tanggal Disposisi",
+        "id_permintaan": "Id Permintaan",
+        "nomor_permintaan": "Nomor Permintaan",
+        "id_delegator": "Id Delegator",
+        "is_active": "Aktif"
+    },
+    "validation": [],
+    "alias": []
+}

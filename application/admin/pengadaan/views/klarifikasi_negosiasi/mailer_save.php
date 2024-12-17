@@ -1,0 +1,1 @@
+<p style="text-align: justify;">Pengadaan <strong>"<?php echo $nama_pengadaan; ?>"</strong> memasuki tahap negosiasi. </p>

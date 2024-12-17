@@ -1,0 +1,16 @@
+{
+    "field": {
+        "id": "primary_key",
+        "jenis_biaya": "varchar",
+        "is_active": "boolean"
+    },
+    "label": {
+        "id": "Id",
+        "jenis_biaya": "Jenis Biaya",
+        "is_active": "Aktif"
+    },
+    "validation": {
+        "jenis_biaya": "required|unique"
+    },
+    "alias": []
+}

@@ -1,0 +1,28 @@
+{
+    "field": {
+        "id": "primary_key",
+        "id_panitia": "varchar",
+        "tanggal": "date",
+        "deskprisi": "varchar",
+        "nama_panitia": "varchar",
+        "jabatan": "varchar",
+        "posisi_panitia": "varchar",
+        "userid": "int",
+        "username": "varchar",
+        "is_active": "boolean"
+    },
+    "label": {
+        "id": "Id",
+        "id_panitia": "Id Panitia",
+        "tanggal": "Tanggal",
+        "deskprisi": "Deskprisi",
+        "nama_panitia": "Nama Panitia",
+        "jabatan": "Jabatan",
+        "posisi_panitia": "Posisi Panitia",
+        "userid": "Userid",
+        "username": "Username",
+        "is_active": "Aktif"
+    },
+    "validation": [],
+    "alias": []
+}

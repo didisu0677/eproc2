@@ -1,0 +1,18 @@
+{
+    "field": {
+        "id": "primary_key",
+        "nama": "varchar",
+        "anggota": "text",
+        "is_group": "boolean"
+    },
+    "label": {
+        "id": "Id",
+        "nama": "Nama Grup",
+        "anggota": "Anggota",
+        "is_group": "Is Group"
+    },
+    "validation": {
+        "nama": "required|unique"
+    },
+    "alias": []
+}

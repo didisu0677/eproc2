@@ -1,0 +1,32 @@
+{
+    "field": {
+        "id": "primary_key",
+        "panitia_id": "varchar",
+        "lokasi_pengadaan": "varchar",
+        "pemberi_tugas": "varchar",
+        "peserta_kurang_dari": "varchar",
+        "peserta_sah_kurang_dari": "varchar",
+        "bayar_lewat": "varchar",
+        "bayar_di": "varchar",
+        "lokasi": "varchar",
+        "ttd": "varchar",
+        "jabatan": "varchar",
+        "is_active": "boolean"
+    },
+    "label": {
+        "id": "Id",
+        "panitia_id": "Panitia Id",
+        "lokasi_pengadaan": "Lokasi Pengadaan",
+        "pemberi_tugas": "Pemberi Tugas",
+        "peserta_kurang_dari": "Peserta Kurang Dari",
+        "peserta_sah_kurang_dari": "Peserta Sah Kurang Dari",
+        "bayar_lewat": "Bayar Lewat",
+        "bayar_di": "Bayar Di",
+        "lokasi": "Lokasi",
+        "ttd": "Ttd",
+        "jabatan": "Jabatan",
+        "is_active": "Aktif"
+    },
+    "validation": [],
+    "alias": []
+}

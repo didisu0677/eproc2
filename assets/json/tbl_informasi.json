@@ -1,0 +1,19 @@
+{
+    "field": {
+        "id": "primary_key",
+        "judul": "varchar",
+        "informasi": "text",
+        "is_active": "boolean"
+    },
+    "label": {
+        "id": "Id",
+        "judul": "Judul",
+        "informasi": "Informasi",
+        "is_active": "Publikasi"
+    },
+    "validation": {
+        "judul": "required",
+        "informasi": "required"
+    },
+    "alias": []
+}

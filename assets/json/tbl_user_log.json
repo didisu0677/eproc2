@@ -1,0 +1,24 @@
+{
+    "field": {
+        "id": "primary_key",
+        "ip_address": "varchar",
+        "id_user": "int",
+        "nama_user": "varchar",
+        "tanggal": "datetime",
+        "keterangan": "text",
+        "metode": "varchar",
+        "data": "text"
+    },
+    "label": {
+        "id": "Id",
+        "ip_address": "Ip Address",
+        "id_user": "Id User",
+        "nama_user": "Nama User",
+        "tanggal": "Tanggal",
+        "keterangan": "Keterangan",
+        "metode": "Metode",
+        "data": "Data"
+    },
+    "validation": [],
+    "alias": []
+}

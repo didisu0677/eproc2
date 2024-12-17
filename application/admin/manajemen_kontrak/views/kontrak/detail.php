@@ -1,0 +1,37 @@
+<?php
+	card_open(lang('data_pekerjaan'),'mb-2');
+		table_open('table table-bordered table-detail');
+			tr();
+				th(lang('nomor_spk'),'','width="200"');
+				td($nomor_spk);
+			tr();
+				th(lang('nama_pekerjaan'));
+				td($nama_pengadaan);
+			tr();
+				th(lang('nilai_pekerjaan'));
+				td(custom_format($nilai_pengadaan));
+			tr();
+				th(lang('nama_rekanan'));
+				td($nama_vendor);
+		table_close();
+	card_close();
+	card_open(lang('data_kontrak'),'mb-2');
+		table_open('table table-bordered table-detail');
+			tr();
+				th(lang('nomor_kontrak'),'','width="200"');
+				td($nomor_kontrak);
+			tr();
+				th(lang('tanggal_mulai_kontrak'));
+				td(c_date($tanggal_mulai_kontrak));
+			tr();
+				th(lang('tanggal_selesai_kontrak'));
+				td(c_date($tanggal_selesai_kontrak));
+			tr();
+				th(lang('tanggal_dikeluarkan'));
+				td(c_date($tanggal_dikeluarkan));
+			tr();
+				th(lang('tempat_dikeluarkan'));
+				td($tempat_dikeluarkan);
+		table_close();
+	card_close();
+?>

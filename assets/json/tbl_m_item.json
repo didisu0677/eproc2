@@ -1,0 +1,40 @@
+{
+    "field": {
+        "id": "primary_key",
+        "id_klasifikasi": "select",
+        "kode": "varchar",
+        "nama": "varchar",
+        "spesifikasi": "text",
+        "id_satuan": "select",
+        "harga": "money",
+        "sumber_harga": "varchar",
+        "tanggal_update": "date",
+        "is_active": "boolean"
+    },
+    "label": {
+        "id": "Id",
+        "id_klasifikasi": "Klasifikasi",
+        "kode": "Kode",
+        "nama": "Nama",
+        "spesifikasi": "Spesifikasi",
+        "id_satuan": "Satuan",
+        "harga": "Harga",
+        "sumber_harga": "Sumber Harga",
+        "tanggal_update": "Tanggal Berlaku Harga",
+        "is_active": "Aktif"
+    },
+    "validation": {
+        "id_klasifikasi": "required",
+        "kode": "required|unique",
+        "nama": "required",
+        "spesifikasi": "required",
+        "id_satuan": "required",
+        "harga": "required",
+        "sumber_harga": "required",
+        "tanggal_update": "required"
+    },
+    "alias": {
+        "id_klasifikasi": "tbl_m_klasifikasi.klasifikasi",
+        "id_satuan": "tbl_m_satuan.satuan"
+    }
+}

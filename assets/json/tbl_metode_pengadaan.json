@@ -1,0 +1,22 @@
+{
+    "field": {
+        "id": "primary_key",
+        "kode": "varchar",
+        "metode_pengadaan": "varchar",
+        "pemilihan_vendor": "varchar",
+        "limit_bawah_pengadaan": "money",
+        "limit_atas_pengadaan": "money",
+        "is_active": "boolean"
+    },
+    "label": {
+        "id": "Id",
+        "kode": "Kode",
+        "metode_pengadaan": "Metode Pengadaan",
+        "pemilihan_vendor": "Pemilihan Vendor",
+        "limit_bawah_pengadaan": "Limit Bawah Pengadaan",
+        "limit_atas_pengadaan": "Limit Atas Pengadaan",
+        "is_active": "Aktif"
+    },
+    "validation": [],
+    "alias": []
+}

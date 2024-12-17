@@ -1,0 +1,22 @@
+{
+    "field": {
+        "id": "primary_key",
+        "kode_jaminan": "varchar",
+        "kata_kunci": "varchar",
+        "nama_jaminan": "text",
+        "is_active": "boolean"
+    },
+    "label": {
+        "id": "Id",
+        "kode_jaminan": "Kode Jaminan",
+        "kata_kunci": "Kata Kunci",
+        "nama_jaminan": "Nama Jaminan",
+        "is_active": "Aktif"
+    },
+    "validation": {
+        "kode_jaminan": "required|unique",
+        "kata_kunci": "required|unique",
+        "nama_jaminan": "required"
+    },
+    "alias": []
+}

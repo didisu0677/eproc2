@@ -1,0 +1,16 @@
+{
+    "field": {
+        "id": "primary_key",
+        "kode": "varchar",
+        "nama_program_kerja": "varchar",
+        "is_active": "boolean"
+    },
+    "label": {
+        "id": "Id",
+        "kode": "Kode",
+        "nama_program_kerja": "Nama Program Kerja",
+        "is_active": "Aktif"
+    },
+    "validation": [],
+    "alias": []
+}

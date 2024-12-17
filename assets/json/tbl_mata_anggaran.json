@@ -1,0 +1,20 @@
+{
+    "field": {
+        "id": "primary_key",
+        "kode_mata_anggaran": "varchar",
+        "nama_anggaran": "varchar",
+        "besaran_anggaran": "money",
+        "is_active": "boolean"
+    },
+    "label": {
+        "id": "Id",
+        "kode_mata_anggaran": "Kode Mata Anggaran",
+        "nama_anggaran": "Nama Anggaran",
+        "besaran_anggaran": "Besaran Anggaran",
+        "is_active": "Aktif"
+    },
+    "validation": {
+        "besaran_anggaran": "required"
+    },
+    "alias": []
+}

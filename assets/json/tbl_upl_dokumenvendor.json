@@ -1,0 +1,22 @@
+{
+    "field": {
+        "id": "primary_key",
+        "id_vendor": "int",
+        "id_dokumen": "int",
+        "kode_dokumen": "varchar",
+        "nama_dokumen": "varchar",
+        "file": "varchar",
+        "tanggal_kadaluarsa": "date"
+    },
+    "label": {
+        "id": "Id",
+        "id_vendor": "Id Vendor",
+        "id_dokumen": "Id Dokumen",
+        "kode_dokumen": "Kode Dokumen",
+        "nama_dokumen": "Nama Dokumen",
+        "file": "File",
+        "tanggal_kadaluarsa": "Tanggal Kadaluarsa"
+    },
+    "validation": [],
+    "alias": []
+}
